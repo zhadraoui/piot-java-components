@@ -15,6 +15,7 @@ import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import programmingtheiot.gda.app.GatewayDeviceApp;
@@ -98,5 +99,6 @@ public class GatewayDeviceAppTest
 		
 		this.gda.stopApp(0);
 	}
+
 	
 }
